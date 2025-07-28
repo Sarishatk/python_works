@@ -1,3 +1,8 @@
 # greatest of two numbers
 
-num1 = int()
+num1 = int(input("Enter first number : "))
+num2 = int(input("Enter second number : "))
+if num1>num2:
+    print(num1,"is greater than ",num2)
+else:
+    print(num2,"is greate than",num1)
