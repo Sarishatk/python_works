@@ -20,11 +20,11 @@
 temperature = int(input("enter the temperature in degree celsius : "))
 if temperature>10 and temperature<20:
     print("cold")
-elif temperature>20 and temperature<25:
+elif temperature<25:
     print("pleasent|mild")
-elif temperature>25 and temperature<30:
+elif temperature<30:
     print("warm")
-elif temperature>30 and temperature<35:
+elif  temperature<35:
     print("hot")
 elif temperature>35:
     print("scorching | veryhot")
