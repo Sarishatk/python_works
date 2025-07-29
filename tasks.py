@@ -1,10 +1,16 @@
 # q1 => read start and stop display all numbers from start to stop
 
+# start = int(input("Enetr starting number : "))
+# stop =  int(input("Enetr stoping number : "))
+# for i in range(start,stop+1):
+#     print(i)
+
+# 2nd method 
 start = int(input("Enetr starting number : "))
 stop =  int(input("Enetr stoping number : "))
-for i in range(start,stop+1):
-    print(i)
-
+while start<=stop:
+    print(start)
+    start+=1
 
 
 
