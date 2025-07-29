@@ -17,10 +17,16 @@
 
 #q2 => display all even number from 1 to 100
 
-for i in range(0,101,2):
-    print(i)
+# for i in range(0,101,2):
+#     print(i)
 
+start = 1
+stop = 100
 
+while start <= stop:
+    if start % 2 == 0:
+        print(start)
+    start += 1
 
 
 
