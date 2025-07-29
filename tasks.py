@@ -46,6 +46,14 @@
 
 # q4 => display all century years from 1879 to 2026
 
+start = 1879
+stop = 2026
+
+while start < stop:
+    if start%100 ==0:
+        print(start)
+    start+=1
+
 
 
 # q5 => dispaly all non century years from 1879 to 2026
@@ -53,10 +61,10 @@
 
 
 # q6 => diaplay all leap years from 1879 to 2026
-start = 1879
-stop = 2026
+# start = 1879
+# stop = 2026
 
-while start < stop:
-    if (start % 4 == 0 and start % 100 != 0) or (start % 400 == 0):
-        print(start)
-    start += 1
+# while start < stop:
+#     if (start % 4 == 0 and start % 100 != 0) or (start % 400 == 0):
+#         print(start)
+#     start += 1
