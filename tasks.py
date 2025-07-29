@@ -58,7 +58,13 @@ while start < stop:
 
 # q5 => dispaly all non century years from 1879 to 2026
 
+start = 1879
+stop = 2026
 
+while start < stop:
+    if start%100 !=0:
+        print(start)
+    start+=1
 
 # q6 => diaplay all leap years from 1879 to 2026
 # start = 1879
