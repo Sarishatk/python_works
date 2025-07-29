@@ -6,16 +6,23 @@
 #     print(i)
 
 # 2nd method 
-start = int(input("Enetr starting number : "))
-stop =  int(input("Enetr stoping number : "))
-while start<=stop:
-    print(start)
-    start+=1
+# start = int(input("Enetr starting number : "))
+# stop =  int(input("Enetr stoping number : "))
+# while start<=stop:
+#     print(start)
+#     start+=1
 
 
 
 
 #q2 => display all even number from 1 to 100
+
+for i in range(0,101,2):
+    print(i)
+
+
+
+
 
 #q3 => display all ood numbers from 1 to 100
 
