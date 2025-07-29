@@ -16,7 +16,7 @@ elif num%5==0:
 
 
 
-# 2.
+# 2.chcek the year ebd with 2 zeros or not
 
 year = int(input("enter a year : "))
 
