@@ -15,3 +15,16 @@ while num!=0:
     sum+=last_digit
     num = num // 10
 print(sum)
+
+
+
+
+# print digit count
+
+num = 876876
+counter = 0
+while num!=0:
+    digit = num % 10
+    counter+=1
+    num = num // 10
+print(counter)
