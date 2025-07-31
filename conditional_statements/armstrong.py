@@ -9,6 +9,6 @@ while num!=0:
     sum += cube
     num = num // 10
 if sum == original :
-    print(sum,"is a armstrong number")
+    print(original,"is a armstrong number")
 else:
-    print(sum,"not a armstrong number")
+    print(original,"not a armstrong number")
