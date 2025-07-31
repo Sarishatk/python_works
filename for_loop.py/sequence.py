@@ -6,3 +6,10 @@ lower_limit = int(input("enter lower limit : "))
 upper_limit = int(input("enter lower limit : "))
 for i in range(lower_limit,upper_limit):
     print(i)
+
+
+
+# 2.write a program to print numbers from 10 to 0
+
+for i in range(10,0,-1):
+    print(i)
