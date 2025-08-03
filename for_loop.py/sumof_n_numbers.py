@@ -16,6 +16,17 @@
 
  
 # 3.Print All Even Numbers Between 1 and N
-num = int(input("enter the number : "))
-for i in range(0,num+1,2):
-    print(i)
+# num = int(input("enter the number : "))
+# for i in range(0,num+1,2):
+#     print(i)
+
+
+# 4.	Count the Number of Digits in a Number
+
+# num = input("enter the number : ")
+# count = len(num)
+# print(count)
+
+# 5.Reverse a Number
+num = input("enter the number : ")
+
