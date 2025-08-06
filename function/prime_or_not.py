@@ -4,9 +4,9 @@
 def prime_or_not(num):
     is_prime = True
     for i in range(2,num):
-        if i%2==0:
+        if num%i==0:
             is_prime = False
             break
     return is_prime
-print(prime_or_not(3))
+print(prime_or_not(5))
 
