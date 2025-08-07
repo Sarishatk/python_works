@@ -17,8 +17,8 @@
 # chck the text is pangram or not
 text = "Quick nymph bugs vex fjord waltz".casefold()
 alpha = "abcdefghijklmnopqrstuvwxyz"
-count = 0
-for ch in text:
-    if ch in alpha:
-        count+=1
-print(f"total no of pangram in text is : {count}")
+is_pangarm = True 
+for ch in alpha:
+    if ch not in text:
+        is_pangarm = False
+print(is_pangarm)
