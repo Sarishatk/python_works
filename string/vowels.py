@@ -15,7 +15,7 @@
 
 
 # chck the text is pangram or not
-text = "Quick nymph bugs vex fjord waltz"
+text = "Quick nymph bugs vex fjord waltz".casefold()
 alpha = "abcdefghijklmnopqrstuvwxyz"
 count = 0
 for ch in text:
