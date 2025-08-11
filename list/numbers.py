@@ -20,3 +20,8 @@ for i in arr:
 
 # years =[1900,1901,1991,1992,1993,1994,2000,2024,2021,2011] 
 # display all leap years from list
+
+years =[1900,1901,1991,1992,1993,1994,2000,2024,2021,2011] 
+for yr in years:
+   if yr%4==0 and yr%100!=0 or yr%400==0:
+      print(yr)
