@@ -25,3 +25,7 @@ years =[1900,1901,1991,1992,1993,1994,2000,2024,2021,2011]
 for yr in years:
    if yr%4==0 and yr%100!=0 or yr%400==0:
       print(yr)
+
+
+#  numbers=[151,152,153,1634,8891,345,678]
+# display armstrong numbers from list
