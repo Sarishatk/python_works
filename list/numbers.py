@@ -42,3 +42,8 @@ for num in numbers:
     num = num // 10
    if original == sum:
       print(f'Armstrong numbers is {sum}')
+
+
+# numbers =[11,12,13,33,131,343,12321,1234]
+
+# display palindromic numbers from list
