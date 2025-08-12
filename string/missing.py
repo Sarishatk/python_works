@@ -3,9 +3,8 @@
 arr = [1, 2, 4, 5]
 
 missing_no = None
-for i in range(1, len(arr) + 2): 
+for i in range(1,len(arr)+2):
     if i not in arr:
         missing_no = i
         break
-
-print("Least positive missing number:", missing_no)
+print(f"least positive missing number {missing_no}")
