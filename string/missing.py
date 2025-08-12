@@ -8,3 +8,6 @@ for i in range(1,len(arr)+2):
         missing_no = i
         break
 print(f"least positive missing number {missing_no}")
+
+
+# 2nd method of finding least postive missing number
