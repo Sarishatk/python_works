@@ -1,9 +1,11 @@
 # find least + ve missing number from this sorted array start from 1
 
-arr = [1,2,4,5]
-missing_no = 3
-for arr1 in arr:
-    if arr1 == missing_no:
-     print(arr1)
-    else:
-       print(missing_no)
+arr = [1, 2, 4, 5]
+
+missing_no = None
+for i in range(1, len(arr) + 2): 
+    if i not in arr:
+        missing_no = i
+        break
+
+print("Least positive missing number:", missing_no)
