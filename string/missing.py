@@ -11,3 +11,10 @@ print(f"least positive missing number {missing_no}")
 
 
 # 2nd method of finding least postive missing number
+
+
+arr = [1, 2, 4, 5]
+for i in range(len(arr)-1):
+    j=arr[i]+1
+if arr[i+1] - arr[i] != 1:
+      print("the leat cost positive integer is ",j)
