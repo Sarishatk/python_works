@@ -29,7 +29,7 @@ for array in arr:
     # prime or not
   
     is_prime = True
-    for i in range(2, int(array ** 0.5) + 1):
+    for i in range(1, int(array ** 0.5) + 1):
             if array % i == 0:
                 is_prime = False
                 break
