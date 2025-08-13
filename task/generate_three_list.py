@@ -8,13 +8,13 @@ armstrong = []
 prime = []
 
 for array in arr:
-   
+    # palindrome
     reverse = str(array)
     reverse2 = "".join(reversed(reverse))
     if reverse2 == reverse:
         palindrome.append(array)
 
-    
+    # armstrong
     original = array
     total = 0
     temp = array  
@@ -25,8 +25,20 @@ for array in arr:
     if total == original:
         armstrong.append(original)
 
+
+    # prime or not
+    if array > 1:
+        is_prime = True
+        for i in range(2, int(array ** 0.5) + 1):
+            if array % i == 0:
+                is_prime = False
+                break
+        if is_prime:
+            prime.append(array)
+
 print("Palindromes:", palindrome)
 print("Armstrong numbers:", armstrong)
+print("prime number is",prime)
 
 
 
