@@ -27,13 +27,13 @@ for array in arr:
 
 
     # prime or not
-    if array > 1:
-        is_prime = True
-        for i in range(2, int(array ** 0.5) + 1):
+  
+    is_prime = True
+    for i in range(2, int(array ** 0.5) + 1):
             if array % i == 0:
                 is_prime = False
                 break
-        if is_prime:
+    if is_prime:
             prime.append(array)
 
 print("Palindromes:", palindrome)
