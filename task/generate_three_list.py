@@ -12,7 +12,9 @@ for array in arr:
     reverse2 = "".join(reversed(reverse))
     if reverse2 == reverse:
        palindrome.append(array)
-print(palindrome)
+
+    
+
         
         
 
