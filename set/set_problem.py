@@ -6,3 +6,7 @@ inters = st2.issuperset(st1)
 
 print(inters)
 
+seta = {12,20,30,40}
+setb = {30,40,50,60}
+symm = seta.symmetric_difference(setb)
+print(symm)
