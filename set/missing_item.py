@@ -8,3 +8,7 @@ missing = ware_house.difference(actual_items)
 print(missing)
 
 
+# chck anagram
+
+word1 = "listen"
+world2 = "silent"
