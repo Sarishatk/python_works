@@ -38,3 +38,10 @@ def find_name(i ,key):
     else:
         print("nit found")
 find_name(["Alice", "Bob", "Charlie", "David"],"Charlie")
+
+
+
+
+# Find if a given character exists in a string:
+# "HELLO", search for 'E'.
+
