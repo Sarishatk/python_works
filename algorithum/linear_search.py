@@ -21,3 +21,20 @@ def search_given_number(l ,key):
     else:
         print("item not found")
 search_given_number([4, 7, 1, 9, 12, 8],9)
+
+
+
+
+
+# Check if a given string exists in a list of names:
+# names = ["Alice", "Bob", "Charlie", "David"], search for "Charlie".
+
+
+def find_name(i ,key):
+    for index,element in enumerate(i):
+        if key == element:
+            print(f"item find at {index}th index and name is {element} ")
+            break
+    else:
+        print("nit found")
+find_name(["Alice", "Bob", "Charlie", "David"],"Charlie")
