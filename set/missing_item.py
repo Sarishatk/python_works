@@ -13,3 +13,15 @@ print(missing)
 word1 = "listen".split()
 word2 = "silent".split()
 print(set(word1)==set(word2) and len(word1)==len(word2))
+
+
+
+
+word1 = "listen"
+word2 = "silent"
+s1 = sorted(word1)
+s2 = sorted(word2)
+if s1 == s2:
+    print("anagram")
+else:
+    print("not an anagram")
