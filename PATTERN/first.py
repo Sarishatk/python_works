@@ -1,5 +1,5 @@
-for i in range(6):
-    print("*"*(i+1))
+# for i in range(6):
+#     print("*"*(i+1))
 
 
 for i in range(6,0,-1):
