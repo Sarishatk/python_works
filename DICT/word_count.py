@@ -10,11 +10,10 @@ print(wc)
 
 
 
-
-
-
 # text = "ABCABB"
 # Display first recursive character
 
 text = "ABCABB"
 word = text.split()
+
+
