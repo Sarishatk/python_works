@@ -15,3 +15,14 @@ square_dict = {}
 for num in numbers:
     square_dict[num] = num **2
 print(square_dict)
+
+
+
+text = "goodmorning"
+char_count = {}
+for w in text:
+    if w in char_count:
+        char_count[w]+=1
+    else:
+        char_count[w]=1
+print(char_count)
