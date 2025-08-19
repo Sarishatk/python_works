@@ -14,6 +14,11 @@ print(wc)
 # Display first recursive character
 
 text = "ABCABB"
-word = text.split()
+wc = {}
 
-
+for ch in text:
+    if ch in wc:  
+        print("First recursive character is:", ch)
+        break
+    else:
+        wc[ch] = 1
