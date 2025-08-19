@@ -1,8 +1,8 @@
-# colors = {"s":"success","d":"danger","o":"orange","g":"green"}
-# # print(colors.get("d"))
-# # print(colors.keys())
-# print(colors.pop("d"))
-# print(colors)
+colors = {"s":"success","d":"danger","o":"orange","g":"green"}
+print(colors.get("d"))
+print(colors.keys())
+print(colors.pop("d"))
+print(colors)
 
 
 #  'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values']
