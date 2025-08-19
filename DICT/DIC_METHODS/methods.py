@@ -26,3 +26,13 @@ for w in text:
     else:
         char_count[w]=1
 print(char_count)
+
+
+
+# 2nd method
+
+text = "goodmorning"
+char_count ={}
+for ch in set(text):
+    char_count[ch] = text.count(ch)
+print(char_count)
