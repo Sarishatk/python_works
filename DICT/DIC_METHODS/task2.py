@@ -3,3 +3,7 @@
 
 
 text ="this is a python program to find most recursive word this python is simple"
+word_count = {}
+
+
+    
