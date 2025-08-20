@@ -52,3 +52,19 @@ print(f"second largest element is {sorted_arr[3]}")
 
 # arr = [85, 120, 95, 150, 102, 99]
 # Expected: 99 (since it is closest to 100)
+
+
+arr = [85, 120, 95, 150, 102, 99]
+
+target = 100
+
+before_target = []
+after_target = []
+for num in arr:
+    if num > target:
+        after_target.append(num)
+    else:
+        before_target.append(num)
+print("the number closest to 100 is",max(before_target))
+
+# another method
