@@ -15,3 +15,10 @@ print(word_count)
 srt_wc = sorted(word_count,reverse=True,key = word_count.get)
 print(srt_wc)
     
+
+# 2nd method
+
+max_val = max(word_count.values())
+for k,v in word_count.items():
+    if v==max_val:
+        print(k,v)
