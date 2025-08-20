@@ -26,3 +26,19 @@ for num in arr:
         negative.append(num)
 print("the smallest number is :",(min(negative)))
 
+# another method
+arr = [8, -5, 0, 12, -20, 7]
+
+arr_sorted = sorted(arr) 
+print("The smallest number is:", arr_sorted[0])
+
+
+
+# Find the second largest number in an array
+
+# arr = [10, 20, 4, 45, 99]
+# Expected: 45
+
+
+
+arr = [10, 20, 4, 45, 99]
