@@ -4,10 +4,19 @@
 # method1
 arr = [-2,-3,-4,-1,2,3,4,5,1]
 for num in arr:
-    if num>-2 and num<2:
+    if num>-1 and num<2:
         print(f"the closest number is {num}")
+
 
 
         
 # method2
+arr = [-2, -3, -4, -1, 2, 3, 4, 5, 1]
+
+closest = arr[0]   # assume first element is closest
+for num in arr:
+    if abs(num) < abs(closest):
+        closest = num
+
+print("The closest number to zero is:", closest)
 
