@@ -42,3 +42,13 @@ print("The smallest number is:", arr_sorted[0])
 
 
 arr = [10, 20, 4, 45, 99]
+sorted_arr = sorted(arr)
+print(f"second largest element is {sorted_arr[3]}")
+
+
+
+
+# Find the number closest to 100 in a list
+
+# arr = [85, 120, 95, 150, 102, 99]
+# Expected: 99 (since it is closest to 100)
