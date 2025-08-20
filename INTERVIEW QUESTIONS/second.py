@@ -16,4 +16,13 @@ print(f"the largest number is {largest_num}")
 # arr = [8, -5, 0, 12, -20, 7]
 # Expected: -20
 
+arr = [8, -5, 0, 12, -20, 7]
+positive = []
+negative = []
+for num in arr:
+    if num>0:
+        positive.append(num)
+    else:
+        negative.append(num)
+print("the smallest number is :",(min(negative)))
 
