@@ -22,3 +22,5 @@ cube_list = [num**3 for num in arr ]
 print(cube_list)
 square_list = [num**2 for num in arr]
 print(square_list)
+odd_numbers = [num for num in arr if num%2==0]
+print(odd_numbers)
