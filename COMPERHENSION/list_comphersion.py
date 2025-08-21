@@ -38,3 +38,13 @@ print(new_arr)
 
 # words = ["apple","banana","carrot","drumstich","egg","fissh"]
 # create a news list of words starting with vowels
+
+words = ["apple", "banana", "carrot", "drumstich", "egg", "fissh"]
+vowels = "aeiou"
+start_with_vowels = []
+
+for w in words:
+    if w[0].lower() in vowels:   
+        start_with_vowels.append(w)
+
+print(start_with_vowels)
