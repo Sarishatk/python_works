@@ -48,3 +48,7 @@ for w in words:
         start_with_vowels.append(w)
 
 print(start_with_vowels)
+
+# print longest word from list
+longest = max(words,key =len)
+print(longest)
