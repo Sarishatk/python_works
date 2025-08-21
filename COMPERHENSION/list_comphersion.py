@@ -24,3 +24,11 @@ square_list = [num**2 for num in arr]
 print(square_list)
 odd_numbers = [num for num in arr if num%2==0]
 print(odd_numbers)
+
+
+
+arr = [2,3,4,8,9,10]
+# generate new list map num as num+1 if num>5 num-1
+
+new_arr = [num+1 if num>5 else num-1 for num in arr]
+print(new_arr)
