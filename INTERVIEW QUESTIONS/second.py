@@ -68,3 +68,12 @@ for num in arr:
 print("the number closest to 100 is",max(before_target))
 
 # another method
+arr = [85, 120, 95, 150, 102, 99]
+target = 100
+
+closest = arr[0]
+for num in arr:
+    if abs(num - target) < abs(closest - target):
+        closest = num
+
+print("The number closest to 100 is:", closest)
