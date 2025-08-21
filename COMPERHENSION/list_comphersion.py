@@ -52,3 +52,10 @@ print(start_with_vowels)
 # print longest word from list
 longest = max(words,key =len)
 print(longest)
+
+
+
+
+words = ["apple", "banana", "carrot", "drumstich", "egg", "fissh"]
+word_dict = {w:len(w) for w in words}
+print(word_dict)
