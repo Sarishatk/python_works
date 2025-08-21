@@ -32,3 +32,9 @@ arr = [2,3,4,8,9,10]
 
 new_arr = [num+1 if num>5 else num-1 for num in arr]
 print(new_arr)
+
+
+
+
+# words = ["apple","banana","carrot","drumstich","egg","fissh"]
+# create a news list of words starting with vowels
