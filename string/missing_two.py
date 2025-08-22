@@ -6,3 +6,8 @@ for i in range(len(list)-1):
     if differnce!=1:
         print(list[i]+1,"is missing")
         break
+
+
+
+# arr = [10, 11, 12, 14, 15]
+# Find and print the missing number in the sequence.

@@ -11,3 +11,14 @@ for num in arr:
         comm_arr.append(num)
 print(comm_arr)
  
+
+
+
+# or
+
+arr = {10,11,20,17,18}
+
+arr2 = {20,10,12,17}
+
+common = list(arr.intersection(arr2))
+print(common)
