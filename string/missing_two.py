@@ -82,3 +82,12 @@ print(greater_no)
 # (Expected: 12 and 10 → difference = 2)
 
 arr = [8, 3, 12, 6, 10]
+sorted_arr = sorted(arr)
+print(sorted_arr)
+diff = 3
+for i in range(1,len(sorted_arr)-1):
+    j = i+1
+    differnce = sorted_arr[i]-sorted_arr[j]
+    if differnce<diff:
+        diff = differnce
+print(f"the smallest difference is {abs(diff)} and pair is {sorted_arr[i]} and {sorted_arr[j]}")
