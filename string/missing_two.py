@@ -77,3 +77,8 @@ for i in range(1,len(arr)):
     
 print(greater_no)
 
+# arr = [8, 3, 12, 6, 10]
+# Find the pair of numbers with the smallest difference.
+# (Expected: 12 and 10 → difference = 2)
+
+arr = [8, 3, 12, 6, 10]
