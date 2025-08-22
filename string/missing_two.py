@@ -47,10 +47,15 @@ print(missin_no)
 # (Expected: 5)
 
 arr = [2, 5, 3, 7, 5, 9, 2]
-seen = set()
-
+dupli = set()
 for num in arr:
-    if num in seen:   # if already seen, it's the first repeated
-        print("First repeated number:", num)
+    if num in dupli:
+        print("the first reparated chartacter is ",num)
         break
-    seen.add(num)
+    else:
+        dupli.add(num)
+
+
+# arr = [3, 2, 5, 4, 7, 8, 6]
+# Print all numbers that are greater than the number before them.
+# (Expected: 5, 7, 8)
