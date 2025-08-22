@@ -32,3 +32,11 @@ else:
 string = "hello"
 reversed_stringv = "".join(reversed(string))
 print(reversed_stringv)
+
+
+
+
+# Find first non-repeated character
+
+# Input: "swiss" → Output: "w"
+
