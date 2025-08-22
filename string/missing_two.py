@@ -59,3 +59,21 @@ for num in arr:
 # arr = [3, 2, 5, 4, 7, 8, 6]
 # Print all numbers that are greater than the number before them.
 # (Expected: 5, 7, 8)
+
+
+arr = [3, 2, 5, 4, 7, 8, 6]
+greater_no = []
+for i in range(1,len(arr)):
+    if arr[i]>arr[i-1]:
+        greater_no.append(arr[i])
+print(greater_no)
+
+arr = [3, 2, 5, 4, 7, 8, 6]
+greater_no = []
+for i in range(1,len(arr)):
+    j = 1+1
+    if arr[i]>arr[j]:
+        greater_no.append(arr[i])
+    
+print(greater_no)
+
