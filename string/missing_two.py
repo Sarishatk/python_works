@@ -39,4 +39,18 @@ for i in range(len(arr)-1):
             missin_no.append(arr[i]+1)
             
 print(missin_no)
-       
+
+
+
+# arr = [2, 5, 3, 7, 5, 9, 2]
+# Print the first number that is repeated.
+# (Expected: 5)
+
+arr = [2, 5, 3, 7, 5, 9, 2]
+seen = set()
+
+for num in arr:
+    if num in seen:   # if already seen, it's the first repeated
+        print("First repeated number:", num)
+        break
+    seen.add(num)
