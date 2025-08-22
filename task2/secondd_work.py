@@ -15,28 +15,24 @@ for i in word:
 # Generate First N Prime Numbers (starting from 13)
 # Input: 5 → Output: 13, 17, 19, 23, 29
 n = 5
-start = 13
 primes = []
+start = 13
 num = start
 
-while len(primes) < n:      
-    is_prime = True       
-    
+while len(primes)<n:
+    is_prime = True
     if num < 2:
-        is_prime = False    
+        is_prime = False
     else:
-        for i in range(2, num):
+
+        for i in range(2,num):
             if num % i == 0:
                 is_prime = False
                 break
-    
     if is_prime:
         primes.append(num)
-    
-    num += 1
-
-print(primes) 
-
+    num +=1
+print(primes)
 
 
 # Find Factorial of a Number
