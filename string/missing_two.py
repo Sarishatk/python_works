@@ -22,3 +22,9 @@ for i in range(len(arr)-1):
         break
 
 
+
+# arr = [1, 2, 4, 6, 7, 9]
+# Print all the missing numbers between the first and last element.
+# (Expected: 3, 5, 8)
+
+
