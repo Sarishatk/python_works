@@ -25,3 +25,10 @@ if user_input==reverse_d:
     print("the string is palindrome")
 else:
     print("the string is not palindrome")
+
+
+# reverse a string without using slice function
+
+string = "hello"
+reversed_stringv = "".join(reversed(string))
+print(reversed_stringv)
