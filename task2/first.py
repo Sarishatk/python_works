@@ -19,12 +19,12 @@
 # Input: "madam" → Output: True
 # Input: "hello" → Output: False
 
-user_input = input("enter a string: ")
-reverse_d = user_input[::-1]
-if user_input==reverse_d:
-    print("the string is palindrome")
-else:
-    print("the string is not palindrome")
+# user_input = input("enter a string: ")
+# reverse_d = user_input[::-1]
+# if user_input==reverse_d:
+#     print("the string is palindrome")
+# else:
+#     print("the string is not palindrome")
 
 
 # reverse a string without using slice function
@@ -40,3 +40,10 @@ print(reversed_stringv)
 
 # Input: "swiss" → Output: "w"
 
+
+character = "swiss"
+
+for ch in character:
+    if character.count(ch) == 1:  
+        print("First non-repeated character is:", ch)
+        break
