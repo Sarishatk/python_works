@@ -14,15 +14,40 @@ for i in word:
 
 # Generate First N Prime Numbers (starting from 13)
 # Input: 5 → Output: 13, 17, 19, 23, 29
+n = 5
+start = 13
+primes = []
+num = start
 
+while len(primes) < n:      
+    is_prime = True       
+    
+    if num < 2:
+        is_prime = False    
+    else:
+        for i in range(2, num):
+            if num % i == 0:
+                is_prime = False
+                break
+    
+    if is_prime:
+        primes.append(num)
+    
+    num += 1
+
+print(primes) 
 
 
 
 # Find Factorial of a Number
 # Input: 5 → Output: 120
 
+
+
 # Check Armstrong Number
 # Input: 153 → Output: True (since 1³+5³+3³=153)
+
+
 
 # Find GCD of Two Numbers
 # Input: 48, 18 → Output: 6
