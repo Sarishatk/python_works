@@ -11,3 +11,14 @@ for i in range(len(list)-1):
 
 # arr = [10, 11, 12, 14, 15]
 # Find and print the missing number in the sequence.
+
+
+arr = [10, 11, 12, 14, 15]                           
+for i in range(len(arr)-1):
+    j = i+1
+    differnce = arr[j] - arr[i]
+    if differnce!=1:
+        print(arr[i]+1,"is missed")
+        break
+
+
