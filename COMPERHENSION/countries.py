@@ -20516,7 +20516,14 @@ def all_countries_names():
 
 def  country_by_name(country_name):
    return [c for c in countries if c.get("name").lower()==country_name]
-print(country_by_name("china"))
+print(country_by_name("india"))
+
+
+
+
+
+
+
 
 
 
