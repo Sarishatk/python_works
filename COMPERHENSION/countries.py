@@ -20516,8 +20516,9 @@ def all_countries_names():
 
 def  country_by_name(country_name):
    return [c for c in countries if c.get("name").lower()==country_name]
-print(country_by_name("india"))
+# print(country_by_name("india"))
 
+# craete a function get_country_capital(country_name)
 
 
 
