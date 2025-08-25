@@ -20509,7 +20509,15 @@ print(len(countries))
 def all_countries_names():
    
    return [c.get("name")  for c in countries]
-print(all_countries_names())
+# print(all_countries_names())
+
+# create a function get country_by_name(country_name)
+# return data of country with name  = contry_name
+
+def  country_by_name(country_name):
+   return [c for c in countries if c.get("name").lower()==country_name]
+print(country_by_name("china"))
+
 
 
 
