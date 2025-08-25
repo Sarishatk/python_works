@@ -38,12 +38,29 @@ print(primes)
 # Find Factorial of a Number
 # Input: 5 → Output: 120
 
-
+num = int(input("enter the number"))
+fact = 1
+for i in range(1,num+1):
+    fact = fact*i
+print(fact)
+    
 
 # Check Armstrong Number
 # Input: 153 → Output: True (since 1³+5³+3³=153)
+
+number = 153
+sum = 0
+while number!=0:
+    last_digit = num % 10
+    cube = last_digit**3
+    sum +=cube
+    number//10
+print(sum)
 
 
 
 # Find GCD of Two Numbers
 # Input: 48, 18 → Output: 6
+
+
+
