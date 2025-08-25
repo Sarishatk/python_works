@@ -37,5 +37,5 @@ print(s_size)
 # in the given data set which brand contain most number of products
 all_brands= [p.get("brand") for p in clothes]
 most = {b:all_brands.count(b) for b in all_brands}
-sorted_bc = sorted(all_brands,key=all_brands.get,reverse=True)
+sorted_bc = sorted(all_brands,key=most.get,reverse=True)
 print(sorted_bc)

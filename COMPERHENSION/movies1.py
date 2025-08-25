@@ -26,3 +26,7 @@ movies = [
 
 # in which year most movie realased
 
+all_years = [m.get("year") for m in movies]
+year_count = {y:all_years.count(y)  for y in all_years}
+sorted_y = max(year_count,key=year_count.get)
+print(sorted_y)
