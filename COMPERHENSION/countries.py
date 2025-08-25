@@ -20506,9 +20506,10 @@ print(len(countries))
 
 # display all countries name
 
-
-all_countries = [c.get("name")  for c in countries]
-print(all_countries)
+def all_countries_names():
+   
+   return [c.get("name")  for c in countries]
+print(all_countries_names())
 
 
 
