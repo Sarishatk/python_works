@@ -1,25 +1,38 @@
-movies = [
-    # Malayalam
-    {"title": "Drishyam", "director": "Jeethu Joseph", "language": "Malayalam", "year": 2013, "genre": "Thriller"},
-    {"title": "Bangalore Days", "director": "Anjali Menon", "language": "Malayalam", "year": 2014, "genre": "Drama"},
-    {"title": "Premam", "director": "Alphonse Puthren", "language": "Malayalam", "year": 2015, "genre": "Romance"},
-    {"title": "Kumbalangi Nights", "director": "Madhu C. Narayanan", "language": "Malayalam", "year": 2019, "genre": "Family"},
-
-    # Tamil
-    {"title": "Soorarai Pottru", "director": "Sudha Kongara", "language": "Tamil", "year": 2020, "genre": "Drama"},
-    {"title": "Vikram Vedha", "director": "Pushkar-Gayathri", "language": "Tamil", "year": 2017, "genre": "Crime"},
-    {"title": "Master", "director": "Lokesh Kanagaraj", "language": "Tamil", "year": 2021, "genre": "Action"},
-    {"title": "Kaithi", "director": "Lokesh Kanagaraj", "language": "Tamil", "year": 2019, "genre": "Action"},
-
-    # Telugu
-    {"title": "Magadheera", "director": "S. S. Rajamouli", "language": "Telugu", "year": 2009, "genre": "Fantasy"},
-    {"title": "Arjun Reddy", "director": "Sandeep Reddy Vanga", "language": "Telugu", "year": 2017, "genre": "Romance"},
-    {"title": "Eega", "director": "S. S. Rajamouli", "language": "Telugu", "year": 2012, "genre": "Fantasy"},
-    {"title": "Pushpa: The Rise", "director": "Sukumar", "language": "Telugu", "year": 2021, "genre": "Action"},
-
-    # Hindi
-    {"title": "3 Idiots", "director": "Rajkumar Hirani", "language": "Hindi", "year": 2009, "genre": "Comedy"},
-    {"title": "Dangal", "director": "Nitesh Tiwari", "language": "Hindi", "year": 2016, "genre": "Sports"},
-    {"title": "Gully Boy", "director": "Zoya Akhtar", "language": "Hindi", "year": 2019, "genre": "Musical"},
-    {"title": "Chak De! India", "director": "Shimit Amin", "language": "Hindi", "year": 2007, "genre": "Sports"}
+clothes = [
+    {"code": "C001", "title": "Casual T-Shirt", "brand": "Adidas", "sizes": ["S", "M", "L", "XL"]},
+    {"code": "C002", "title": "Formal Shirt", "brand": "Van Heusen", "sizes": ["38", "40", "42", "44"]},
+    {"code": "C003", "title": "Slim Fit Jeans", "brand": "Levi's", "sizes": ["30", "32", "34", "36"]},
+    {"code": "C004", "title": "Denim Jacket", "brand": "Wrangler", "sizes": ["M", "L", "XL"]},
+    {"code": "C005", "title": "Hoodie", "brand": "H&M", "sizes": ["S", "M", "L", "XL"]},
+    {"code": "C006", "title": "Chinos", "brand": "Peter England", "sizes": ["30", "32", "34", "36"]},
+    {"code": "C007", "title": "Kurta", "brand": "FabIndia", "sizes": ["38", "40", "42", "44"]},
+    {"code": "C008", "title": "Track Pants", "brand": "Nike", "sizes": ["S", "M", "L", "XL"]},
+    {"code": "C009", "title": "Polo T-Shirt", "brand": "US Polo Assn.", "sizes": ["S", "M", "L", "XL"]},
+    {"code": "C010", "title": "Sweatshirt", "brand": "Zara", "sizes": ["M", "L", "XL"]},
+    {"code": "C011", "title": "Maxi Dress", "brand": "Only", "sizes": ["S", "M", "L"]},
+    {"code": "C012", "title": "Crop Top", "brand": "Forever 21", "sizes": ["XS", "S", "M", "L"]},
+    {"code": "C013", "title": "Leggings", "brand": "Reebok", "sizes": ["S", "M", "L", "XL"]},
+    {"code": "C014", "title": "Blazer", "brand": "Allen Solly", "sizes": ["38", "40", "42", "44"]},
+    {"code": "C015", "title": "Party Dress", "brand": "H&M", "sizes": ["S", "M", "L"]},
+    {"code": "C016", "title": "Cargo Pants", "brand": "Woodland", "sizes": ["30", "32", "34", "36", "38"]},
+    {"code": "C017", "title": "Jumpsuit", "brand": "Zara", "sizes": ["S", "M", "L"]},
+    {"code": "C018", "title": "Kurti", "brand": "Biba", "sizes": ["S", "M", "L", "XL"]},
+    {"code": "C019", "title": "Sports Shorts", "brand": "Puma", "sizes": ["S", "M", "L", "XL"]},
+    {"code": "C020", "title": "Winter Jacket", "brand": "North Face", "sizes": ["M", "L", "XL", "XXL"]},
 ]
+
+
+adidas_product = [p.get("title") for p in clothes if p.get("brand").lower()=="adidas"]
+print(adidas_product)
+
+hm_product = [p.get( "title") for p in clothes if p.get("brand").lower()=="h&m"]
+print(hm_product)
+
+
+s_size = [p.get("title") for p in clothes if "S" in p.get("sizes")]
+print(s_size)
+
+
+
+# in the given data set which brand contain most number of products
+
