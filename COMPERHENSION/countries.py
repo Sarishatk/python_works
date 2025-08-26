@@ -20520,8 +20520,7 @@ def  country_by_name(country_name):
 
 # craete a function get_country_capital(country_name)
 
-
-
+# fn for frtching currency symbol by country name
 
 
 
