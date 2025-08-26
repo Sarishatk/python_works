@@ -14,5 +14,8 @@ print(slice_word)
 
 
 word = "luminar"
-slice = word[::2]
+slice = word[::-1]
 print(slice)
+
+
+
