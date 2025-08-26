@@ -19,3 +19,10 @@ print(slice)
 
 
 
+arr = ["word","madam","racecar" ,"car"]
+for w in arr:
+    if w == w[::-1]:
+        print(w)
+
+
+
