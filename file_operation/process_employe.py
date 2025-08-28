@@ -28,3 +28,5 @@ all_employee_name = [e.get("name") for e in all_employees]
 print(all_employee_name)
 
 # print highest salary
+maz_sal = max(all_employees,key = lambda e:e.get("salary"))
+print(maz_sal)
