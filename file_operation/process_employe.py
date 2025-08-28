@@ -32,3 +32,11 @@ print(all_employee_name)
 max_sal = max(all_employees,key = lambda e:e.get("salary"))
 
 print(max_sal)
+
+
+# min salary
+min_sal = min(all_employees,key = lambda e:e.get("salary")).get("salary")
+min_salary_employees = [e.get("name") for e in all_employees if e.get("salary")==min_sal ]
+print(min_salary_employees)
+
+
