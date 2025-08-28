@@ -19,3 +19,25 @@ for line in fr:
     food_logs.append(dictionary)
 
 print(food_logs)
+
+
+# daily summary
+
+
+daily_summary = {}
+
+for e in food_logs:
+    
+    date = e.get("date")
+
+    calories = e.get("calories")
+
+    if date in daily_summary:
+
+        daily_summary[date]+=calories
+
+    else:
+
+        daily_summary [date] = calories
+
+print(daily_summary)
