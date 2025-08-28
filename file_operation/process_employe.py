@@ -24,5 +24,7 @@ print(all_employees)
 
 # get all employee name
 
+all_employee_name = [e.get("name") for e in all_employees]
+print(all_employee_name)
 
-
+# print highest salary
