@@ -10,7 +10,7 @@ class Father:
 
 class Mother():
 
-    def cooking_skill():
+    def cooking_skill(self):
 
         print("mother cooking skill")
 
@@ -23,3 +23,5 @@ class Child(Father,Mother):
 child_instance = Child()
 
 child_instance.cricklet_skilss()
+
+child_instance.cooking_skill()
