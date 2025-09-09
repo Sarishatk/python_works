@@ -1,0 +1,7 @@
+"""
+
+abstraction:
+            
+        hiding implimentation details
+
+"""
