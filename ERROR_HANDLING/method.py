@@ -9,12 +9,16 @@ except Exception as e:
     num2 = int(input("enter num2"))
 
     div_res = num1/num2
-    
+
     print(div_res)
 
-print("send text message to user phone number")
+finally:
+    print("send text message to user phone number")
+    print("send email confirmation")
 
-print("send email confirmation")
+
+
+
 
 
 
