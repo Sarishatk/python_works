@@ -34,3 +34,12 @@ except Exception as e:
     print(e)
 
 print("program completed")
+
+
+
+
+age = int(input("enter age"))
+
+if age<18:
+
+    raise Exception("invalid error")
