@@ -31,3 +31,25 @@ def sum_od_n(num):
     return num+sum_od_n(num-1)
 
 print(sum_od_n(5))
+
+
+
+
+# 123 , 1+2+3 = 6
+# num = 2+3+4 = 9
+
+
+
+num = int(input("enter number"))
+sum = 0
+for i in str(num):
+    i = int(i)
+    sum +=i
+print(sum)
+
+
+
+
+    
+   
+   
