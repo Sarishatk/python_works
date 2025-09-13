@@ -7,8 +7,13 @@ anu_food = [["dosa","sambar"],
 
 print(anu_food)
 
-manu_food =copy(anu_food)
+manu_food = deepcopy(anu_food)
 
-anu_food[0][0] = "idli"
+
+
+manu_food[0][0] = "idli"
 
 print(manu_food)
+
+
+
