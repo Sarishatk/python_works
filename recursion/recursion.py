@@ -48,6 +48,9 @@ for i in str(num):
 print(sum)
 
 
+# in recursive form
+
+
 
 
     
